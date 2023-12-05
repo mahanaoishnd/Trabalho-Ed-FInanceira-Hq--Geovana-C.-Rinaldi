@@ -1,0 +1,91 @@
+body{
+	font-size: 22px;
+	font-family: actor, Arial, Arial Narrow, sans-serif; 
+	color: black;
+
+}h1{
+	font-family: judson, serif;
+}h2{
+	font-family: judson, serif;
+}p{
+	margin-left: 50px;
+	margin-right: 50px;
+}a{
+	color: #414141;
+}
+.pai{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.logo{
+	width: 15%;
+	height: 15vh;
+	background-color: #3F5143;
+	justify-content: center;
+	align-items: center;
+}
+.pontape{
+	width:85%;
+	height: 15vh;
+	font-size: 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	background-color: #3F5143 ;
+	color: #E1DDDD;
+}
+.menu{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #B5A7B3;
+}
+.titulo{
+	width: 100%;
+	height: 15vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #E1DDDD;
+	color: #414141;
+}
+.pg1{
+	width: 50%;
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #E1DDDD;
+}
+.pg2{
+	width: 50%;
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #E1DDDD;
+}
+.pe{
+	width: 100%;
+	height: 15vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #3F5143;
+	color: #E1DDDD;
+}
